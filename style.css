@@ -1,16 +1,17 @@
 body{
     background-color: bisque;
-
 }
+
 ul li{
     display: inline-block;
 
  }
- a{
+ .nav-link{
     text-decoration: none;
     color: #000;
  }
- li:hover{
+ .nav-link:hover{
      background-color: aliceblue;
+     color: #000;
 
  }
