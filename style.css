@@ -15,3 +15,7 @@ ul li{
      color: #000;
 
  }
+.nav-content a{
+    font-size: 25px;
+    text-align: center;
+}
