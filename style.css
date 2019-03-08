@@ -1,14 +1,25 @@
-body{
-    background-color: bisque;
+html, body{
+    background-color: #fff;
+    margin:0;
+    padding: 0;
+    height: 100%;
 }
 
-ul li{
-    display: inline-block;
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #AEAEAE;
 
+ }
+ a{
+     float: left;
+     width: 140px;
  }
  .nav-link{
     text-decoration: none;
     color: #000;
+    text-align: center;
  }
  .nav-link:hover{
      background-color: aliceblue;
@@ -18,4 +29,18 @@ ul li{
 .nav-content a{
     font-size: 25px;
     text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #AEAEAE;
+
+}
+.container{
+    min-height: 100%;
+    margin-top:2%;
+    position: relative;
 }
