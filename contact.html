@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Witaj na mojej stronie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+     
+</head>
+<body>
+
+    <div class="navbar">
+     
+    </div>
+
+    <div class="container">
+            <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Imię</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Podaj Imię">
+                     
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Nazwisko</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Podaj nazwisko">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Adres email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Podaj email">
+                    </div>
+                    <label for="exampleInputEmail1">Płeć   </label>
+                    <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Kobieta</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Mężczyzna</label>
+                        </div>
+                    
+
+                    <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Opis</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Wiek</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                              <option selected>18</option>
+                              <option value="1">15</option>
+                              <option value="2">13</option>
+                              <option value="3">10</option>
+                            </select>
+                      </div>
+
+                    <div class="form-group">
+                            <label for="inputState">Stan cywilny</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>Panna/Kawaler</option>
+                              <option>Wdowa/wdowiec</option>
+                            </select>
+                          </div>
+
+
+                    <button type="submit" class="btn btn-primary">Wyślij</button>
+                    <button type="reset" class="btn btn-secondary">Wyczyść</button>
+                  </form> 
+    </div>
+
+    <script type="text/javascript" src='navbar.js'></script>
+</body>
+</html>
