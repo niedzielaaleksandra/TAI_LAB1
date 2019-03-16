@@ -4,6 +4,9 @@ html, body{
     padding: 0;
     height: 100%;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar{
     display: flex;
@@ -43,4 +46,20 @@ html, body{
     min-height: 100%;
     margin-top:2%;
     position: relative;
+}
+
+.scroll{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+
+.correct{
+    background-color: #056b19;
+}
+
+.incorrect{
+    background-color: red;
 }
